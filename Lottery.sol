@@ -29,12 +29,6 @@ contract Lotery{
     // mapping(string => mapping(address => string)) public allGamesCreatedInCategories;
     mapping(address => uint256) public gamesIntervals;// ?
    
-   
-
-
-
-
-
    constructor() {
         i_owner = msg.sender;
     }
